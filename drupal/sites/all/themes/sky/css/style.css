@@ -208,7 +208,7 @@ table p {
 .section-main,
 .section-collapsible,
 .region-highlighted {
-  background: #fff;
+/*  background: #fff; */
   padding: 1em 0;
 }
 .section {
