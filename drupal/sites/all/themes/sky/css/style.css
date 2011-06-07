@@ -216,7 +216,7 @@ table p {
   position: relative;
 }
 .inner {
-  padding: 1.5em;
+  padding: 1.5em 0;
 }
 header {
   padding: 1.5em 0 0 0;
