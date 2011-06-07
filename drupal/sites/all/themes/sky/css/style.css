@@ -37,6 +37,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("/sites/default/files/bg-bottom.jpg");
+  background-position: center bottom;
+  background-repeat: repeat-x ;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup,
 menu, nav, section {
