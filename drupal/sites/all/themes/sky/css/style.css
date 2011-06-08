@@ -36,7 +36,7 @@
 	width:420px;
 }
 
-.field-name-field-media-asset {
+.field-name-field-media-asset, .field-name-field-video-temp {
 	float: right;
 	width:420px;
 }
