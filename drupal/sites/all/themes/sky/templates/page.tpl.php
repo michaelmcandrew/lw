@@ -43,6 +43,9 @@
       <div id="main-content" class="clearfix">
         <?php print render($page['content']); ?>
       </div>
+      <div id="carousel-wrapper">
+        <?php print render($page['carousel']); ?>
+      </div>
       <?php print $feed_icons; ?>
     </div>
     </div>
@@ -58,11 +61,11 @@
     <?php endif; ?>
   </div>
   <?php // print $breadcrumb; ?>
-  <footer id="footer" class="section section-footer clearfix" role="footer">
+</div>
+<footer id="footer" class="section section-footer clearfix" role="footer">
     <?php print render($page['footer']); ?>
     <?php print render($page['copyright']); ?>
   </footer>
-</div>
 <?php if ($collapsible = render($page['collapsible'])): ?>
   <section id="section-collapsible" class="section section-collapsible clearfix">
     <h2 class="collapsible-toggle"><a href="#"><?php print t('Toggle collapsible region'); ?></a></h2>

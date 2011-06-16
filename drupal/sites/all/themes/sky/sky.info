@@ -18,6 +18,7 @@ regions[footer] = Footer
 regions[copyright] = Copyright
 regions[collapsible] = Collapsible
 regions[page_bottom] = Page Bottom
+regions[carousel] = Carousel
 
 
 ; STYLESHEETS

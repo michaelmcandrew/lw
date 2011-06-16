@@ -43,15 +43,19 @@
 
 /* General
 -------------------------------------------------------------------------*/
+html { 
+    height: 100%;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
   font-size: 81.3%; /* 13px */
   line-height: 1.6em;
   margin: 0;
   padding: 0;
-  background-image: url("/sites/default/files/bg-bottom.jpg");
+  position: relative;
+  /*background-image: url("/sites/default/files/bg-bottom.jpg");
   background-position: center bottom;
-  background-repeat: repeat-x;
+  background-repeat: repeat-x;*/
 }
 article, aside, details, figcaption, figure, footer, header, hgroup,
 menu, nav, section {
@@ -218,7 +222,9 @@ table p {
 
 /* Layout
 -------------------------------------------------------------------------*/
-.section-main,
+#container { 
+	height: 100%;
+}
 .section-collapsible,
 .region-highlighted {
 /*  background: #fff; */
@@ -230,11 +236,21 @@ table p {
 .inner {
   padding: 1.5em 0;
 }
+#main .inner{
+  padding: 1.5em 1em 3em;
+  margin-bottom: 4em;
+  background-color: #fff;
+}
 header {
   padding: 1.5em 0 0 0;
 }
 .region-navigation {
   margin-top: 2em;
+}
+#footer { 
+	width: 100%;
+	height: 45px;
+	background: url("/sites/default/files/bg-bottom.jpg") repeat-x center bottom;
 }
 .region-footer {
   padding: 1em 0;
@@ -318,6 +334,10 @@ header {
 /* Safeguard against dropdowns temporarily. */
 .region-navigation .content ul ul {
   display: none;
+}
+
+.region-navigation .content ul a:hover {
+	background-color: #ECE8DC !important;
 }
 
 

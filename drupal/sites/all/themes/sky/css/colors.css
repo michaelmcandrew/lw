@@ -76,9 +76,7 @@ h2.site-slogan {
 
 /* Footer
 -------------------------------------------------------------------------*/
-.breadcrumb,
-footer.section,
-footer.section .block-title {
+.breadcrumb {
   background-color: #e3e1df;
   color: #010101;
 }
@@ -112,7 +110,7 @@ footer.section a:active {
 .region-navigation .content ul a.active,
 .region-navigation .content ul a.active:visited {
   background-color: #fff;
-  color: #473e34;
+  color: #F3E9C9;
 }
 
 
