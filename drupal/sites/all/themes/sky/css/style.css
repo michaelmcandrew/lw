@@ -1,61 +1,57 @@
 /* $Id$ */
 
 /**
- * Font sizes (reference)
- * Based on 13px body (81.3%).
- *
- *  8px = 0.615em          30px = 2.308em          52px = 4em
- *  9px = 0.692em          31px = 2.385em          53px = 4.077em
- * 10px = 0.769em          32px = 2.462em          54px = 4.154em
- * 11px = 0.846em          33px = 2.538em          55px = 4.231em
- * 12px = 0.923em          34px = 2.615em          56px = 4.308em
- * 13px = 1em              35px = 2.692em          57px = 4.385em
- * 14px = 1.077em          36px = 2.769em          58px = 4.462em
- * 15px = 1.154em          37px = 2.846em          59px = 4.538em
- * 16px = 1.231em          38px = 2.923em          60px = 4.615em
- * 17px = 1.308em          39px = 3em              61px = 4.692em
- * 18px = 1.385em          40px = 3.077em          62px = 4.769em
- * 19px = 1.462em          41px = 3.154em          63px = 4.846em
- * 20px = 1.538em          42px = 3.231em          64px = 4.923em
- * 21px = 1.615em          43px = 3.308em          65px = 5em
- * 22px = 1.692em          44px = 3.385em          66px = 5.077em
- * 23px = 1.769em          45px = 3.462em          67px = 5.154em
- * 24px = 1.846em          46px = 3.538em          68px = 5.231em
- * 25px = 1.923em          47px = 3.615em          69px = 5.308em
- * 26px = 2em              48px = 3.692em          70px = 5.385em
- * 27px = 2.077em          49px = 3.769em          71px = 5.462em
- * 28px = 2.154em          50px = 3.846em          72px = 5.538em
- * 29px = 2.231em          51px = 3.923em
- */
+* Font sizes (reference)
+* Based on 13px body (81.3%).
+*
+* 8px = 0.615em 30px = 2.308em 52px = 4em
+* 9px = 0.692em 31px = 2.385em 53px = 4.077em
+* 10px = 0.769em 32px = 2.462em 54px = 4.154em
+* 11px = 0.846em 33px = 2.538em 55px = 4.231em
+* 12px = 0.923em 34px = 2.615em 56px = 4.308em
+* 13px = 1em 35px = 2.692em 57px = 4.385em
+* 14px = 1.077em 36px = 2.769em 58px = 4.462em
+* 15px = 1.154em 37px = 2.846em 59px = 4.538em
+* 16px = 1.231em 38px = 2.923em 60px = 4.615em
+* 17px = 1.308em 39px = 3em 61px = 4.692em
+* 18px = 1.385em 40px = 3.077em 62px = 4.769em
+* 19px = 1.462em 41px = 3.154em 63px = 4.846em
+* 20px = 1.538em 42px = 3.231em 64px = 4.923em
+* 21px = 1.615em 43px = 3.308em 65px = 5em
+* 22px = 1.692em 44px = 3.385em 66px = 5.077em
+* 23px = 1.769em 45px = 3.462em 67px = 5.154em
+* 24px = 1.846em 46px = 3.538em 68px = 5.231em
+* 25px = 1.923em 47px = 3.615em 69px = 5.308em
+* 26px = 2em 48px = 3.692em 70px = 5.385em
+* 27px = 2.077em 49px = 3.769em 71px = 5.462em
+* 28px = 2.154em 50px = 3.846em 72px = 5.538em
+* 29px = 2.231em 51px = 3.923em
+*/
 
 /* MM
 -------------------------------------------------------------------------*/
 
 .field-name-body {
-	float: left;
-	width:420px;
+float: left;
+width:420px;
 }
 
 .field-name-field-media-asset, .field-name-field-video-temp {
-	float: right;
-	width:420px;
+float: right;
+width:420px;
 }
 
 /* General
 -------------------------------------------------------------------------*/
-html { 
-    height: 100%;
-}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
   font-size: 81.3%; /* 13px */
   line-height: 1.6em;
   margin: 0;
   padding: 0;
-  position: relative;
-  /*background-image: url("/sites/default/files/bg-bottom.jpg");
+  background-image: url("/sites/default/files/bg-bottom.jpg");
   background-position: center bottom;
-  background-repeat: repeat-x;*/
+  background-repeat: repeat-x;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup,
 menu, nav, section {
@@ -222,13 +218,16 @@ table p {
 
 /* Layout
 -------------------------------------------------------------------------*/
-#container { 
-	height: 100%;
-}
+
+.section-main,
 .section-collapsible,
 .region-highlighted {
-/*  background: #fff; */
+/* background: #fff; */
   padding: 1em 0;
+}
+.section-main { 
+  background-color: #fff;
+  padding: 1em 1.5em;
 }
 .section {
   position: relative;
@@ -236,21 +235,11 @@ table p {
 .inner {
   padding: 1.5em 0;
 }
-#main .inner{
-  padding: 1.5em 1em 3em;
-  margin-bottom: 4em;
-  background-color: #fff;
-}
 header {
   padding: 1.5em 0 0 0;
 }
 .region-navigation {
   margin-top: 2em;
-}
-#footer { 
-	width: 100%;
-	height: 45px;
-	background: url("/sites/default/files/bg-bottom.jpg") repeat-x center bottom;
 }
 .region-footer {
   padding: 1em 0;
@@ -334,10 +323,6 @@ header {
 /* Safeguard against dropdowns temporarily. */
 .region-navigation .content ul ul {
   display: none;
-}
-
-.region-navigation .content ul a:hover {
-	background-color: #ECE8DC !important;
 }
 
 
@@ -593,6 +578,10 @@ ul.primary {
   -webkit-transition: none;
   transition: none;
 }
+.region-navigation .content ul a:hover {
+	background-color: #ECE8DC !important;
+}
+
 
 /* Secondary */
 ul.secondary {
@@ -735,7 +724,7 @@ span.warning {
 }
 .ok {
   background-color: #f8fff0;
-  color: #234600;  
+  color: #234600;
 }
 span.error, .marker, form .error {
   background-color: transparent;
@@ -777,11 +766,11 @@ ul.tabs:after,
 ul.action-links:after,
 .form-item:after,
 .item-list:after {
-  content: "\0020";  /*UTF-8 character for a space.*/ 
+  content: "\0020"; /*UTF-8 character for a space.*/
   clear: both;
   display: block;
   height: 0;
-  visibility: hidden;	
+  visibility: hidden;
 }
 * html ul.tabs,
 * html .action-links,

@@ -13,31 +13,35 @@
 }
 
 .jcarousel-skin-default .jcarousel-container-horizontal {
-  width: 500px;
-  height: 300px;
+  width: 700px;
+  height: auto;
   padding: 20px 40px;
   margin: auto;
 }
 
-.jcarousel-skin-default .jcarousel-container-vertical {
+.jcarousel-skin-default .jcarousel-container-horizontal .views-field-field-image {
+	height: 497px;
+}
+
+/*.jcarousel-skin-default .jcarousel-container-vertical {
   width: 102px;
   height: 440px;
   padding: 40px 20px;
   margin: auto;
-}
+}*/
 
 .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width: 500px;
+  width: 700px;
 }
-
+/*
 .jcarousel-skin-default .jcarousel-clip-vertical {
   height: 440px;
-}
+}*/
 
 .jcarousel-skin-default .jcarousel-item {
   padding: 0;
-  width: 100px;
-  height: 300px;
+  width: 700px;
+  height: auto;
   overflow: hidden;
   list-style: none;
   background: #fff none;
@@ -47,9 +51,9 @@
   margin: 0 4px;
 }
 
-.jcarousel-skin-default .jcarousel-item-vertical {
+/*.jcarousel-skin-default .jcarousel-item-vertical {
   margin: 4px 0;
-}
+}*/
 
 .jcarousel-skin-default .jcarousel-item-placeholder {
   background: #fff url(throbber.gif) no-repeat center center;
