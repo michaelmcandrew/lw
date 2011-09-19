@@ -63,8 +63,10 @@
   <?php // print $breadcrumb; ?>
 </div>
 <footer id="footer" class="section section-footer clearfix" role="footer">
-    <?php print render($page['footer']); ?>
-    <?php print render($page['copyright']); ?>
+	<div class="container-16">
+    	<?php print render($page['footer']); ?>
+    	<?php print render($page['copyright']); ?>
+    </div>
   </footer>
 <?php if ($collapsible = render($page['collapsible'])): ?>
   <section id="section-collapsible" class="section section-collapsible clearfix">

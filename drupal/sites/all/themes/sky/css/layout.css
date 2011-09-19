@@ -31,6 +31,23 @@ html, body {
     background-repeat: repeat-x;
 } 
 
+#footer .inner { 
+	padding: 0;
+	text-align: right;
+}
+
+#footer p {
+	margin: 0;
+}
+
+#footer .content a {
+	color: #E1DFDC;
+	font-size: 0.8em;
+}
+
+#footer .content a:hover {
+	color: #010101;
+}
 /*Opera Fix*/
 body:before {
 	content:"";
