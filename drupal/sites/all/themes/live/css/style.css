@@ -102,6 +102,11 @@ a#logo {
     position: relative;
 }
 
+/* --------------- Views --------------- */
+.view-employer-of-the-month .view-footer {
+	clear: left;
+}
+
 /* --------------- System Tabs  --------------- */
 
 .tabs {
