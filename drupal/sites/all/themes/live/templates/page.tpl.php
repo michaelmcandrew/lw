@@ -71,90 +71,74 @@
 	<div id="page">
 		<div id="header">
 			<div class="section clearfix">
+				<?php if ($main_menu): ?>
+					<div id="navigation">
+			        	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
+					</div> 
+			    <?php endif; ?>
+			
 				<?php if ($logo): ?>
 					<a href="<?php print $front_page; ?>" rel="home" id="logo">
 						<img src="<?php print $logo; ?>" alt="<?php print t('Living Wage'); ?>" />
 					</a>
 				<?php endif; ?>
-
-				<?php if ($site_name || $site_slogan): ?>
-					<div id="name-and-slogan">
-						<?php if ($site_name): ?>
-								<div id="site-name">
-									<strong><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a></strong>
-								</div>
-						<?php endif; ?>
-
-						<?php if ($site_slogan): ?>
-							<div id="site-slogan"><?php print $site_slogan; ?></div>
-						<?php endif; ?>
-					</div>
-				<?php endif; ?>
-
-				<?php print render($page['header']); ?>
-			
-    			<?php if ($main_menu || $secondary_menu): ?>
-					<div id="navigation">
-			        	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
-			        	<?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')),)); ?>
-					</div> 
-			    <?php endif; ?>	
+				
+				<?php print render($page['header']); ?>	
 			</div>		
 		</div>
 		
-		<div id="messages">
-			<div class="section clearfix">
-    	<?php print $messages; ?>
+		<?php if ($messages): ?>
+			<div id="messages">
+				<div class="section clearfix">
+	    			<?php print $messages; ?>
+				</div>
 			</div>
-		</div>
+		<?php endif; ?>
 
     	<div id="main-wrapper" class="clearfix">
-			<div id="main" class="clearfix">			
-				<?php if ($page['sidebar_first']): ?>
-			    	<div id="sidebar-first" class="column sidebar">
-						<div class="section">
-			          		<?php print render($page['sidebar_first']); ?>
-			        	</div>
-					</div> 
-			    <?php endif; ?>
-		
+			<div id="main" class="clearfix">					
 				<div id="content">
-		  			<div class="section">
-	        			<?php print render($title_prefix); ?>
-	        				<?php if ($title): ?>
-								<h1 class="title" id="page-title"><?php print $title; ?></h1>
-							<?php endif; ?>
-	        				<?php print render($title_suffix); ?>
-	        				<?php if ($tabs): ?>
-								<div class="tabs">
-									<?php print render($tabs); ?>
-								</div>
-							<?php endif; ?>
-	        				<?php print render($page['help']); ?>
-	        				<?php if ($action_links): ?>
-								<ul class="action-links">
-									<?php print render($action_links); ?>
-								</ul>
-							<?php endif; ?>
-	        				<?php print render($page['content']); ?>
-	      			</div>
-				</div> 
+		  			<div class="section">      			
+        				<?php print render($page['help']); ?>
+        				
+						<?php if ($action_links): ?>
+							<ul class="action-links">
+								<?php print render($action_links); ?>
+							</ul>
+						<?php endif; ?>	  
+						
+		        		<?php print render($title_prefix); ?>
+        				
+						<?php if ($title): ?>
+							<h1 class="title" id="page-title"><?php print $title; ?></h1>
+						<?php endif; ?>
+        				
+						<?php print render($title_suffix); ?>
+        				
+						<?php if ($tabs_rendered = render($tabs)): ?><div class="tabs"><?php print $tabs_rendered; ?></div><?php endif; ?>
 
-	      		<?php if ($page['sidebar_second']): ?>
+        				<?php print render($page['content']); ?>  				
+	      			</div>
+				</div>
+				
+				<?php if ($page['sidebar_second']): ?>
 					<div id="sidebar-second" class="column sidebar">
 						<div class="section">
 				    		<?php print render($page['sidebar_second']); ?>
 				    	</div>
 					</div> 
 				<?php endif; ?>
-
 	    	</div>
-	</div> 
+		</div> 
 
-    <div id="footer">
-		<div class="section">
-      		<?php print render($page['footer']); ?>
-    	</div>
-	</div> 
-  </div>
+    	<div id="footer" class="clearfix">
+			<div class="section clearfix">
+				<?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
+	      			<?php print render($page['footer_first']); ?>
+					<?php print render($page['footer_second']); ?>
+					<?php print render($page['footer_third']); ?>
+				<?php endif; ?>
+	    	</div>
+		</div> 
+  	</div>
 </div> 

@@ -6,12 +6,15 @@
 	float: right;
 	margin: 0 0 0 10px;
 }
-a, a:link, a:visited, a:active {
+a, a:link, a:visited, a:active, li a.active {
 	text-decoration: none;
-	color: #353535;
+	color: #232323;
 }
 a:hover {
 	text-decoration: underline;
+}
+p {
+	margin: 0 0 8px 0;
 }
 html, body, #page {
 	height: 100%;
@@ -21,90 +24,220 @@ body {
     font-size: 62.5%;
     line-height: 1.5;
 	font-family: Helvetica, Arial, Sans-serif;
-	color: #111;
+	color: #232323;
+	background-color: #fffbf3;
 }
 #page-wrapper {
 	min-height: 100%;
 	min-width: 960px;
-	padding-top: 30px;
-}
-#header div.section, 
+} 
+#header div.section,
 #featured div.section, 
 #messages div.section, 
 #main, 
-#footer-columns, 
-#footer { 
+#footer div.section { 
 	width: 960px;
 	margin: 0 auto;
 }
-a#logo {
-	float: left;
-}
-#navigation {
-	width: 600px;
-	float: right;
-	text-align: right;
-	font-size: 1.2em;
-	font-weight: bold;
+#header div#nav-wrap {
+	width: 1000px;
+	margin: 0 auto;
 }
 #header {
-	padding-bottom: 30px;
+	padding-bottom: 85px;
 }
-#header ul.inline {
+#navigation {
+	width: 1000px;
+	height: 50px;
+	text-align: right;
+	font-size: 1.6em;
+	line-height: 50px;
+	font-weight: bold;
+}
+.front #navigation {
+	margin-bottom: 25px;
+}
+ul#main-menu {
 	margin: 0;
+	padding: 0;
+	float: right;
+}
+#navigation ul.inline li {
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	float: left;	
+	background: url(../images/nav-divide.png) repeat-y 0 0;
+}
+#navigation ul.inline li.first {
+	background: 0 none;
+}
+#navigation ul.inline li a {
+	display: block;
+	padding: 0 15px;
+}
+a.active-trail,
+#navigation a:hover {
+	background-color: #f79520;
+	text-decoration: none;
+}
+#navigation a:hover {
+	background-color: #feda14;
+}
+a#logo {
+	width: 304px;
+	height: 150px;
+	float: left;
+}
+.front a#logo {
+	height: 200px;
+}
+.not-front a#logo img {
+	width: 188px;
+	height: 150px;
 }
 #main-wrapper {
-	min-height: 300px;
+	margin-bottom: 130px;
+}
+#hp-text {
+	height: 115px;
+	margin-top: 55px;
+	font-size: 1.8em;
+	text-align: right;
+}
+#hp-text .block {
+	padding: 0;
+}
+#hp-text p {
+	margin: 0;
+}
+.hp-quote {
+	width: 632px;
+	float: right;
+	font-size: 2.4em;
+}
+.david-c {
+	font-size: 0.6em;
+	display: block;
+	margin: -15px 15px 0 0;
+}
+.front #main {
+	margin-top: 15px;
 }
 #main {
-    margin-bottom: 40px;
-    margin-top: 20px;
 	font-size: 1.3em;
 }
-#sidebar-first, #sidebar-second {
-	width: 304px;
+h1.title {
+	height: 50px;
+	margin: 6px 0;
+	padding-right: 110px;
+	float: left;
+	background: url(../images/title-bubbles.png) no-repeat right 4px;
 }
-.sidebar .section {
-    padding-top: 10px;
-}
-.front .region-content {
-	margin-top: -10px;
-}
-.block {
-    margin: 0 0 26px;
-    padding: 6px;
-}
-.front .block, 
-.sidebar .block
-{
-	background-color: #E6E7E8;	
-}
-.block h2 {
-	margin: 0 0 8px 0;
-}
+#hp-text,
 .one-sidebar #content {
     width: 632px;
-	margin-right: 24px;
 }
 .no-sidebars #content {
     width: 960px;
-    float: none;
 }
+.sidebar-second #content .section {
+	padding-right: 24px;
+}
+#hp-text,
 #content, 
 #sidebar-first, 
 #sidebar-second, 
-.region-footer-firstcolumn, 
-.region-footer-secondcolumn, 
-.region-footer-thirdcolumn, 
-.region-footer-fourthcolumn {
-    display: inline;
+#footer .region {
     float: left;
-    position: relative;
+}
+#sidebar-first, 
+#sidebar-second, 
+#footer .region {
+	width: 304px;
+}
+a#logo,
+#sidebar-first,
+#footer .region {
+	margin-right: 24px;
+}
+#sidebar-second {
+	margin-left: 24px;
+	padding-top: 60px;
+}
+#footer .region-footer-third {
+	margin-right: 0;
+	text-align: right;
+}
+.block {
+    padding: 6px;
+	clear: both;
+}
+.sidebar .block {
+	padding-bottom: 30px;
+	background: url(../images/block-divide.png) repeat-x 0 bottom;
+}
+#main-wrapper .block {
+	margin: 0 0 26px 0;
+}
+.hp-quote,
+.block h2,
+.block h2 a,
+.block .views-field-title a {
+	color: #24c4f4;
+}
+.block h2,
+.block .views-field-title  {
+	margin: 0 0 8px 0;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#footer {
+	padding: 40px 0;
+	background-color: #efece4;
+	border: 1px solid #bbbdbf;
+}
+
+.signup-btn {
+	width: 185px;
+	height: 150px;
+	margin: 30px auto 0;
+	display: block;
+	background: url(../images/join-btn.png) no-repeat 0 0;
+	text-indent: -7777px;
+	font-size: 0;
+	line-height: 0;
 }
 
 /* --------------- Views --------------- */
 .view-employer-of-the-month .view-footer {
 	clear: left;
+}
+.rate-bubbles {
+	width: 292px;
+	height: 292px;
+	position: relative;
+}
+.rate-bubble div {
+	font-size: 1.8em;	
+}
+.london-bubble,
+.nationwide-bubble {
+	width: 77px;
+	height: 77px;
+	padding: 30px 25px 20px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	background: url(../images/bubble-yellow.png) no-repeat 0 0;
+	color: #fff;
+	font-size: 1.2em;
+}
+.nationwide-bubble {
+	left: 105px;
+	top: 160px;
+	background: url(../images/bubble-blue.png) no-repeat 0 0;
 }
 
 /* --------------- System Tabs  --------------- */
