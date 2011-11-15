@@ -134,26 +134,26 @@ select {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.btn,
 button,
 input[type=submit],
 input.form-submit,
 .form-actions a,
 .form-actions a:visited,
 .button, a.button, a.button:visited {
-  background: #e6e4e2 url(../images/ui/ui-bg_highlight-soft_90_e6e4e2_1x100.png) 50% 50% repeat-x;
-  border: 1px solid #e6e4e2;
-  border-bottom-color: #bbb;
-  border-right-color: #bbb;
-  color: #000;
-  font-size: 1em;
-  font-weight: 500;
-  padding: 0.5em 1em;
-  margin: 0 0.5em 0 0;
-  overflow: hidden;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+	display: block;
+	padding: 6px 10px;
+	float: right;
+	clear: both;
+	background-color: #f79520;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 0;
 }
+.btn:hover,
 button:hover,
 input[type=submit]:hover,
 input.form-submit:hover,
@@ -164,12 +164,7 @@ input.form-submit:hover,
 a.button:hover,
 a.button:focus,
 a.button:active {
-  background: #d6d4d1 url(../images/ui/ui-bg_highlight-soft_50_d6d4d1_1x100.png) 50% 50% repeat-x;
-  border: 1px solid #e1dedb;
-  border-bottom-color: #aaa;
-  border-right-color: #aaa;
-  color: #000;
-  cursor: pointer;
+  text-decoration: none;
 }
 textarea:focus,
 input[type=password]:focus,
@@ -193,7 +188,7 @@ select[multiple=multiple]:focus {
   padding-left: 0.4em;
 }
 .form-required {
-  color: #fda61f;
+  color: #f79520;
   font: bold 1em Tahoma, Verdana, Geneva;
 }
 
