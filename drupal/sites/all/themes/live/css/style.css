@@ -272,12 +272,12 @@ h3 {
 	height: 333px;
 	position: relative;
 }
-.rate-bubble a {
+#main-wrapper .rate-bubble a {
 	color: #fff;
 	font-size: 1.8em;
 	font-weight: bold;
 }
-.rate-bubble a:hover {
+#main-wrapper .rate-bubble a:hover {
 	text-decoration: none;
 }
 .london-bubble,
