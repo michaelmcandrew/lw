@@ -5,5 +5,5 @@ sIFR.replaceElement(".intro", "/sites/all/themes/live/sifr/fonts/archer-medium.s
 sIFR.replaceElement(".rate-bubble span", "/sites/all/themes/live/sifr/fonts/archer-bolditalic.swf", named({sColor : "#ffffff" , sWmode:"transparent" , sFlashVars: "textalign=center"}));
 sIFR.replaceElement(".signup-text", "/sites/all/themes/live/sifr/fonts/archer-medium.swf", named({sColor : "#ffffff" , sWmode:"transparent"}));
 sIFR.replaceElement(".quote", "/sites/all/themes/live/sifr/fonts/archer-bolditalic.swf", named({sColor : "#232323" , sWmode:"transparent"}));
-sIFR.replaceElement(".quote-inside", "/sites/all/themes/live/sifr/fonts/archer-medium.swf", named({sColor : "#232323" , sWmode:"transparent"}));
+sIFR.replaceElement(".quote-inside", "/sites/all/themes/live/sifr/fonts/archer-mediumitalic.swf", named({sColor : "#232323" , sWmode:"transparent"}));
 // sIFR.replaceElement("#navigation a", "/sites/all/themes/live/sifr/fonts/archer-medium.swf", named({sColor : "#232323" , sWmode:"transparent" , sFlashVars: "textalign=center"}));
