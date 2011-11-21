@@ -67,9 +67,9 @@ ul#main-menu {
 	background: 0 none;
 }
 #navigation ul.inline li a {
-	height: 16px;
 	display: block;
 	padding: 12px 16px;
+	font-size: 1.4em;
 }
 a.active-trail,
 #navigation a:hover {
