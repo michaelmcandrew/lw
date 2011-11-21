@@ -50,6 +50,7 @@ body {
 	width: 1000px;
 	text-align: right;
 	height: 50px;
+	margin-bottom: 25px;
 }
 ul#main-menu {
 	margin: 0;
@@ -64,9 +65,6 @@ ul#main-menu {
 }
 #navigation ul.inline li.first {
 	background: 0 none;
-}
-#navigation ul.inline li span {
-
 }
 #navigation ul.inline li a {
 	height: 16px;
