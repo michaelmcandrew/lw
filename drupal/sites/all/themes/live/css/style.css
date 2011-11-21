@@ -340,10 +340,10 @@ ul.inline li.node-readmore a:hover {
 	vertical-align: bottom;
 	margin: 0 5px 0 0; /* LTR */
 }
-.tabs ul.primary li.active a {
+#main-wrapper .tabs ul.primary li.active a {
 	border-bottom: 1px solid #ffffff;
 }
-.tabs ul.primary li a {
+#main-wrapper .tabs ul.primary li a {
 	color: #000;
 	background-color: #ededed;
 	height: 1.8em;
@@ -363,7 +363,7 @@ ul.inline li.node-readmore a:hover {
 	-webkit-border-top-right-radius: 6px;
 	border-top-right-radius: 6px;
 }
-.tabs ul.primary li.active a {
+#main-wrapper .tabs ul.primary li.active a {
     background-color: #ffffff;
 }
 .tabs ul.secondary {
@@ -383,7 +383,7 @@ ul.inline li.node-readmore a:hover {
 .tabs ul.secondary li a {
     padding: 0.25em 0.5em;
 }
-.tabs ul.secondary li a.active {
+#main-wrapper .tabs ul.secondary li a.active {
 	background: #f2f2f2;
 	border-bottom: none;
 	-moz-border-radius: 5px;
@@ -400,7 +400,7 @@ ul.action-links li {
 	display: inline-block;
 	margin-left: 10px;
 }
-ul.action-links li a {
+#main-wrapper ul.action-links li a {
 	padding-left: 15px;
 	background: url(../images/add.png) no-repeat left center;
 	margin: 0 10px 0 0;
