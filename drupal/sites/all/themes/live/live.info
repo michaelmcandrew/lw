@@ -6,6 +6,12 @@ core = 7.x
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/forms.css
 
+;----------// sIFR
+stylesheets[screen][] = sifr/sifr-screen.css
+stylesheets[print][] = sifr/sifr-print.css
+scripts[] = sifr/sifr.js
+scripts[] = sifr/archer.js
+
 ;----------// Custom regions
 regions[header] = Header
 regions[content] = Content

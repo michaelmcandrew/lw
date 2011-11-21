@@ -70,18 +70,20 @@
 <div id="page-wrapper">
 	<div id="page">
 		<div id="header">
-			<div class="section clearfix">
+			<div id="nav-wrap" class="section clearfix">
 				<?php if ($main_menu): ?>
 					<div id="navigation">
 			        	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
 					</div> 
 			    <?php endif; ?>
-			
+			</div>
+			<div class="section clearfix">
 				<?php if ($logo): ?>
 					<a href="<?php print $front_page; ?>" rel="home" id="logo">
 						<img src="<?php print $logo; ?>" alt="<?php print t('Living Wage'); ?>" />
 					</a>
 				<?php endif; ?>
+
 				
 				<?php print render($page['header']); ?>	
 			</div>		

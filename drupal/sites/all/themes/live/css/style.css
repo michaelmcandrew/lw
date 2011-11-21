@@ -48,13 +48,8 @@ body {
 }
 #navigation {
 	width: 1000px;
-	height: 50px;
 	text-align: right;
-	font-size: 1.6em;
-	line-height: 50px;
-}
-.front #navigation {
-	margin-bottom: 25px;
+	height: 50px;
 }
 ul#main-menu {
 	margin: 0;
@@ -70,9 +65,13 @@ ul#main-menu {
 #navigation ul.inline li.first {
 	background: 0 none;
 }
+#navigation ul.inline li span {
+
+}
 #navigation ul.inline li a {
+	height: 16px;
 	display: block;
-	padding: 0 18px;
+	padding: 12px 16px;
 }
 a.active-trail,
 #navigation a:hover {
@@ -94,6 +93,7 @@ a#logo {
 	height: 130px;
 	margin-top: 35px;
 	font-size: 1.8em;
+	float: right;
 	text-align: right;
 }
 #hp-text p {
@@ -101,13 +101,21 @@ a#logo {
 }
 .hp-quote {
 	width: 632px;
+	height: 48px;
 	float: right;
-	font-size: 2.4em;
+	font-size: 20px;
 }
-.david-c {
-	font-size: 0.6em;
-	display: block;
-	margin: -15px 15px 0 0;
+#hp-text p.cameron {
+	width: 200px;
+	height: 40px;
+	float: right;
+	margin-right: 30px;
+	text-align: right;
+}
+#hp-text p.intro {
+	height: 40px;
+	margin-right: 8px;
+	clear: right;
 }
 .front #main {
 	margin-top: 15px;
@@ -116,8 +124,9 @@ a#logo {
 	font-size: 1.3em;
 }
 h1.title {
-	margin: 6px 0;
-	padding-right: 110px;
+	height: 30px;
+	margin: 6px 0 22px 0;
+	padding-right: 60px;
 	float: left;
 	background: url(../images/title-bubbles.png) no-repeat right 4px;
 }
@@ -131,7 +140,6 @@ h1.title {
 .sidebar-second #content .section {
 	padding-right: 24px;
 }
-#hp-text,
 #content, 
 #sidebar-first, 
 #sidebar-second, 
@@ -150,7 +158,7 @@ a#logo,
 }
 #sidebar-second {
 	margin-left: 24px;
-	padding-top: 60px;
+	padding-top: 50px;
 }
 #footer .region-footer-third {
 	margin-right: 0;
@@ -177,9 +185,11 @@ a#logo,
 	color: #24c4f4;
 }
 .block h2,
-.block .views-field-title  {
+.block .views-field-title span {
+	display: block;
 	margin: 0 0 12px 0;
-	font-size: 1.3em;
+	font-size: 16px;
+	height: 20px;
 	font-weight: bold;
 }
 #footer {
@@ -187,19 +197,22 @@ a#logo,
 	background-color: #efece4;
 	border: 1px solid #bbbdbf;
 }
-.signup-text {
-	width:250px;
-	height: 152px;
-	padding: 24px 109px 24px 12px;
-	float: left;
+#block-block-3 {
+	width: 100%;
+	height: 184px;
 	background: url(../images/sign-up-box.png) no-repeat 0 0;
+	position: relative;
+}
+.signup-text {
+	width: 220px;
+	height: 136px;
+	padding: 12px;
 	color: #fff;
 }
 .signup-btn {
 	width: 182px;
 	height: 183px;
-	margin: 15px 30px 0 0;
-	display: block;
+	display: block;	
 	background: url(../images/sign-up-btn.png) no-repeat 0 0;
 	text-indent: -7777px;
 	font-size: 0;
@@ -207,6 +220,18 @@ a#logo,
 }
 .front .signup-btn {
 	float: right;
+	position: absolute;
+	right: 30px;
+	top: 6px;
+}
+.not-front .signup-btn {
+	width: 90px;
+	height: 90px;
+	margin: 18px auto;
+	background: url(../images/sign-up-btn-small.png) no-repeat 0 0;
+}
+h3 {
+	height: 20px;
 }
 /* --------------- Carousel --------------- */
 .carousel {
@@ -219,7 +244,7 @@ a#logo,
 	width: 526px;
 	height: 240px;
 	margin: 0 auto;
-	padding-top: 12px;
+	padding-top: 30px;
 }
 .jcarousel-prev,
 .jcarousel-next {
@@ -237,19 +262,21 @@ a#logo,
 }
 
 /* --------------- Views --------------- */
+.views-row {
+	overflow: hidden;
+}
 .view-employer-of-the-month .view-footer {
 	clear: left;
 }
 .rate-bubbles {
 	width: 292px;
-	height: 275px;
+	height: 333px;
 	position: relative;
-}
-.rate-bubble div {
-	font-size: 1.8em;	
 }
 .rate-bubble a {
 	color: #fff;
+	font-size: 1.8em;
+	font-weight: bold;
 }
 .rate-bubble a:hover {
 	text-decoration: none;
@@ -287,7 +314,7 @@ ul.inline li.node-readmore a:hover {
 	color: #f79520;
 }
 .view-employer-of-the-month .views-field {
-	margin-top: 6px;
+	margin-top: 14px;
 }
 .view-employer-of-the-month .views-field-field-logo {
 	width: 200px;
