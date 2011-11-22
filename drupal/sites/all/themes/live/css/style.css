@@ -66,14 +66,15 @@ ul#main-menu {
 	padding: 0;
 	float: left;	
 	background: url(../images/nav-divide.png) repeat-y 0 0;
+
 }
 #navigation ul.inline li.first {
 	background: 0 none;
 }
 #navigation ul.inline li a {
 	display: block;
-	padding: 12px 16px;
-	font-size: 1.4em;
+	padding: 12px 6px;
+	font-size: 1px;
 }
 a.active-trail,
 #navigation a:hover {
@@ -291,36 +292,25 @@ h3 {
 .view-employer-of-the-month .view-footer {
 	clear: left;
 }
-.rate-bubbles {
+#block-block-8 {
 	width: 292px;
 	height: 305px;
 	position: relative;
 }
-#main-wrapper .rate-bubble a {
-	color: #fff;
-	font-size: 1.8em;
-	font-weight: bold;
-}
-#main-wrapper .rate-bubble a:hover {
-	text-decoration: none;
-}
 .london-bubble,
 .nationwide-bubble {
-	width: 77px;
-	height: 77px;
-	padding: 30px 25px 20px;
-	text-align: center;
+	display: block;
+	width: 128px;
+	height: 128px;
+	background: url(../images/bubble-yellow.png) no-repeat 0 0;
 	position: absolute;
 	left: 0;
 	top: 42px;
-	background: url(../images/bubble-yellow.png) no-repeat 0 0;
-	color: #fff;
-	font-size: 1.2em;
 }
 .nationwide-bubble {
+	background: url(../images/bubble-blue.png) no-repeat 0 0;
 	left: 130px;
 	top: 140px;
-	background: url(../images/bubble-blue.png) no-repeat 0 0;
 }
 .view-blog .views-row {
 	padding-bottom: 30px;
