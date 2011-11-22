@@ -137,6 +137,7 @@ h1.title {
 #hp_main,
 #block-views-hp-carousel-block {
     width: 632px;
+	float: left;
 }
 .no-sidebars #content {
     width: 960px;
@@ -205,7 +206,6 @@ a#logo,
 }
 #block-block-3 {
 	width: 632px;
-	width: inherit;
 	height: 184px;
 	background: url(../images/sign-up-box.png) no-repeat 0 0;
 	position: relative;
