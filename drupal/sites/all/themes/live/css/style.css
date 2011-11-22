@@ -142,7 +142,7 @@ h1.title {
     width: 960px;
 }
 .front #content {
-	background-color: red;
+	width: 620px;
 }
 #content, 
 #sidebar-first, 
