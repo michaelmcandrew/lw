@@ -44,7 +44,7 @@ body {
 	margin: 0 auto;
 }
 #header {
-	padding-bottom: 85px;
+	padding-bottom: 35px;
 }
 #navigation {
 	width: 1000px;
@@ -115,8 +115,8 @@ a#logo {
 	margin-right: 8px;
 	clear: right;
 }
-.front #main {
-	margin-top: 15px;
+.not-front #main {
+	margin-top: 50px;
 }
 #main {
 	font-size: 1.3em;
@@ -135,9 +135,9 @@ h1.title {
 .no-sidebars #content {
     width: 960px;
 }
-.sidebar-second #content .section {
+/*.sidebar-second #content .section {
 	padding-right: 24px;
-}
+}*/
 #content, 
 #sidebar-first, 
 #sidebar-second, 
@@ -153,6 +153,11 @@ a#logo,
 #sidebar-first,
 #footer .region {
 	margin-right: 24px;
+}
+.front #sidebar-first {
+	width: 274px;
+	margin-right: 54px;
+	padding-top: 50px;
 }
 #sidebar-second {
 	margin-left: 24px;
@@ -173,7 +178,7 @@ a#logo,
 	margin: 0 0 16px 0;
 }
 #hp_main .block {
-	margin: 0 0 36px 0;
+	margin: 0 0 58px 0;
 }
 #main-wrapper a,
 .hp-quote,
@@ -269,7 +274,7 @@ h3 {
 }
 .rate-bubbles {
 	width: 292px;
-	height: 333px;
+	height: 305px;
 	position: relative;
 }
 #main-wrapper .rate-bubble a {
