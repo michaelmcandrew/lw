@@ -139,9 +139,6 @@ h1.title {
 .no-sidebars #content {
     width: 960px;
 }
-/*.sidebar-second #content .section {
-	padding-right: 24px;
-}*/
 #content, 
 #sidebar-first, 
 #sidebar-second, 
@@ -160,7 +157,7 @@ a#logo,
 }
 .front #sidebar-first {
 	width: 274px;
-	margin-right: 54px;
+	margin-right: 40px;
 	padding-top: 50px;
 }
 #sidebar-second {
