@@ -141,7 +141,7 @@ h1.title {
 .no-sidebars #content {
     width: 960px;
 }
-.front .one-sidebar #content {
+.front #content {
 	background-color: red;
 }
 #content, 
