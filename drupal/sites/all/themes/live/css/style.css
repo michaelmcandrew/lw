@@ -141,9 +141,6 @@ h1.title {
 .no-sidebars #content {
     width: 960px;
 }
-.front #content {
-	width: 620px;
-}
 #content, 
 #sidebar-first, 
 #sidebar-second, 
