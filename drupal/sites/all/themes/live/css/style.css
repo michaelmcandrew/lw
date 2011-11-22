@@ -273,6 +273,15 @@ h3 {
 	left: 546px;
 	background: url(../images/next.png) no-repeat 0 0;
 }
+/* REQUIRED FOR JCAROUSEL TO WORK */
+
+.jcarousel-clip-horizontal {
+width: 100%;
+}
+
+.jcarousel-item {
+height: 100%;
+}
 
 /* --------------- Views --------------- */
 .views-row {
