@@ -138,6 +138,9 @@ h1.title {
 #block-views-hp-carousel-block {
     width: 632px;
 }
+.front .one-sidebar #content {
+	width: 600px;
+}
 .no-sidebars #content {
     width: 960px;
 }
