@@ -137,10 +137,12 @@ h1.title {
 #hp_main,
 #block-views-hp-carousel-block {
     width: 632px;
-background-color: red;
 }
 .no-sidebars #content {
     width: 960px;
+}
+.front .one-sidebar #content {
+	background-color: red;
 }
 #content, 
 #sidebar-first, 
