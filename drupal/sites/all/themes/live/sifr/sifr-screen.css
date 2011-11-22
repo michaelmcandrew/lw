@@ -34,12 +34,12 @@ span.sIFR-alternate {
 .sIFR-hasFlash .views-field-title span,
 .sIFR-hasFlash .signup-text {
 	visibility: hidden;
-	letter-spacing: -9px;
+	letter-spacing: 1px;
 }
 
 .sIFR-hasFlash h3 {
 	visibility: hidden;
-	letter-spacing: -6px;
+	letter-spacing: 1px;
 }
 
 /*.sIFR-hasFlash #navigation li {

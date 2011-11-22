@@ -196,8 +196,7 @@ a#logo,
 .block .views-field-title span {
 	display: block;
 	margin: 0 0 12px 0;
-	font-size: 16px;
-	height: 20px;
+	font-size: 12px;
 	font-weight: bold;
 }
 #footer {
@@ -239,7 +238,7 @@ a#logo,
 	background: url(../images/sign-up-btn-small.png) no-repeat 0 0;
 }
 h3 {
-	height: 20px;
+	font-size: 12px;
 }
 /* --------------- Carousel --------------- */
 .carousel {
