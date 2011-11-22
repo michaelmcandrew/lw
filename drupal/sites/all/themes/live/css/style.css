@@ -49,7 +49,7 @@ body {
 #navigation {
 	width: 1000px;
 	text-align: right;
-	height: 50px;
+	height: 45px;
 	margin-bottom: 25px;
 }
 ul#main-menu {
@@ -116,7 +116,7 @@ a#logo {
 	clear: right;
 }
 .not-front #main {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 #main {
 	font-size: 1.3em;
