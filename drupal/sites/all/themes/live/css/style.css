@@ -242,8 +242,14 @@ h3 {
 }
 /* --------------- Carousel --------------- */
 .carousel {
-	width: 630px;
-	height: 284px;
+	width: 626px;
+	height: 280px;
+	padding: 2px;
+	border: 1px solid #dddcdb;
+}
+.carousel .view-content {
+	width: 624px;
+	height: 278px;
 	background-color: #fff;
 	border: 1px solid #e5e4e3;
 }
@@ -329,6 +335,10 @@ ul.inline li.node-readmore a:hover {
 }
 .quoted {
 	font-size: 13px;
+}
+.view-quote-block {
+	padding-bottom: 58px;
+	background: url(../images/quote-bubbles.png) no-repeat center bottom;
 }
 /* --------------- System Tabs  --------------- */
 
