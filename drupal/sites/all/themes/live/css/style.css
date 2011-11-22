@@ -80,6 +80,7 @@ ul#main-menu {
 	font-size: 0;
 	line-height: 0;
 }
+#navigation ul.inline li a.active-trail,
 #navigation ul.inline li a:hover {
 	background-position: 0 -45px;
 }
@@ -102,14 +103,6 @@ ul#main-menu {
 #navigation ul.inline li.menu-388 a {
 	width: 108px;
 	background-image: url(../images/menu-contact.png);
-}
-a.active-trail,
-#navigation a:hover {
-	background-color: #f79520;
-	text-decoration: none;
-}
-#navigation a:hover {
-	background-color: #ededed;
 }
 a#logo {
 	width: 231px;
