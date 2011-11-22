@@ -133,7 +133,9 @@ h1.title {
 	background: url(../images/title-bubbles.png) no-repeat right 4px;
 }
 #hp-text,
-.one-sidebar #content {
+.one-sidebar #content, 
+#hp_main,
+#block-views-hp-carousel-block {
     width: 632px;
 }
 .no-sidebars #content {
@@ -157,7 +159,7 @@ a#logo,
 }
 .front #sidebar-first {
 	width: 274px;
-	margin-right: 40px;
+	margin-right: 54px;
 	padding-top: 50px;
 }
 #sidebar-second {
