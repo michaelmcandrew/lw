@@ -42,11 +42,6 @@ span.sIFR-alternate {
 	letter-spacing: 1px;
 }
 
-.sIFR-hasFlash #navigation a {
-	letter-spacing: 10px;
-	visibility: hidden;
-}
-
 .sIFR-hasFlash .hp-quote {
 	letter-spacing: -2px;
 	visibility: hidden;

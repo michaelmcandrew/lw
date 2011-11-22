@@ -66,15 +66,42 @@ ul#main-menu {
 	padding: 0;
 	float: left;	
 	background: url(../images/nav-divide.png) repeat-y 0 0;
-
 }
 #navigation ul.inline li.first {
 	background: 0 none;
 }
 #navigation ul.inline li a {
 	display: block;
-	padding: 12px 6px;
-	font-size: 1px;
+	height: 45px;
+	overflow: hidden;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -7654px;
+	font-size: 0;
+	line-height: 0;
+}
+#navigation ul.inline li a:hover {
+	background-position: 0 -45px;
+}
+#navigation ul.inline li.menu-418 a {
+	width: 84px;
+	background-image: url(../images/menu-home.png);
+}
+#navigation ul.inline li.menu-358 a {
+	width: 91px;
+	background-image: url(../images/menu-about.png);
+}
+#navigation ul.inline li.menu-359 a {
+	width: 130px;
+	background-image: url(../images/menu-ourwork.png);
+}
+#navigation ul.inline li.menu-360 a {
+	width: 134px;
+	background-image: url(../images/menu-employers.png);
+}
+#navigation ul.inline li.menu-388 a {
+	width: 108px;
+	background-image: url(../images/menu-contact.png);
 }
 a.active-trail,
 #navigation a:hover {
