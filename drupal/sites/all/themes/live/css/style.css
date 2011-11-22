@@ -16,6 +16,10 @@ a:hover {
 p {
 	margin: 0 0 8px 0;
 }
+hr {
+	border: 0 none;
+	background: url(../images/block-divide.png) repeat-x 0 0;
+}
 html, body, #page {
 	height: 100%;
 }
@@ -323,6 +327,9 @@ ul.inline li.node-readmore a:hover {
 .view-employer-of-the-month .views-field-field-logo {
 	width: 200px;
 	margin: 6px auto;
+}
+.quoted {
+	font-size: 13px;
 }
 /* --------------- System Tabs  --------------- */
 
