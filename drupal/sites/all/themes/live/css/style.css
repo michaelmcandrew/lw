@@ -366,8 +366,8 @@ ul.inline li.node-readmore a:hover {
 	padding-bottom: 58px;
 	background: url(../images/quote-bubbles.png) no-repeat center bottom;
 }
-.submitted {
-	margin: -8px 0 12px;
+.blog-date {
+	margin-bottom: 12px;
 	color: #676767;
 }
 /* --------------- System Tabs  --------------- */
