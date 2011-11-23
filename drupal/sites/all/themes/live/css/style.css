@@ -154,6 +154,7 @@ a#logo {
 	font-size: 1.3em;
 }
 h1.title {
+	max-width: 572px;
 	height: 30px;
 	margin: 6px 0 22px 0;
 	padding-right: 60px;
