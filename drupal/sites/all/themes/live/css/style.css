@@ -103,6 +103,10 @@ ul#main-menu {
 	width: 134px;
 	background-image: url(../images/menu-employers.png);
 }
+#navigation ul.inline li.menu-380 a {
+	width: 75px;
+	background-image: url(../images/menu-blog.png);
+}
 #navigation ul.inline li.menu-388 a {
 	width: 108px;
 	background-image: url(../images/menu-contact.png);
