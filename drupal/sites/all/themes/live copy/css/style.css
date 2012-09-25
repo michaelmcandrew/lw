@@ -51,13 +51,13 @@ body {
 	margin: 0 auto;
 }
 #header {
-	padding-bottom: 20px;
+	padding-bottom: 35px;
 }
 #navigation {
 	width: 1000px;
 	text-align: right;
 	height: 45px;
-/*	margin-bottom: 25px;*/
+	margin-bottom: 25px;
 }
 ul#main-menu {
 	margin: 0;
@@ -115,30 +115,43 @@ a#logo {
 	width: 231px;
 	height: 182px;
 	float: left;
-	margin-top: -10px;
 }
 #main-wrapper {
 	margin-bottom: 130px;
 }
 #hp-text {
-	margin-top: 40px;
-	font-size: 18px;
-	line-height: 22px;
+	height: 100px;
+	margin-top: 35px;
+	font-size: 1.8em;
 	float: right;
-	padding: 24px 0 8px 0;
-	border-top: 2px solid #24C4F4;
-	/*border-width: 2px 0;*/
 	/*text-align: right;*/
+}
+#hp-text p {
+	margin: 0;
+}
+.hp-quote {
+	width: 632px;
+	height: 48px;
+	float: right;
+	font-size: 20px;
+}
+#hp-text p.cameron {
+	width: 200px;
+	height: 40px;
+	float: right;
+	margin-right: 30px;
+	text-align: right;
+}
+#hp-text p.intro {
+	height: 40px;
+	margin-right: 8px;
+	clear: right;
 }
 .not-front #main {
 	margin-top: 40px;
 }
 #main {
 	font-size: 1.3em;
-}
-#main-wrapper #hp_main .video {
-	width: 632px;
-	margin: 0 auto 24px;
 }
 h1.title {
 	height: 30px;
@@ -175,7 +188,7 @@ a#logo,
 .front #sidebar-first {
 	width: 274px;
 	margin-right: 54px;
-	/*padding-top: 50px;*/
+	padding-top: 50px;
 }
 #sidebar-second {
 	margin-left: 24px;
@@ -195,9 +208,9 @@ a#logo,
 #main-wrapper .block {
 	margin: 0 0 16px 0;
 }
-/*#hp_main .block {
+#hp_main .block {
 	margin: 0 0 53px 0;
-}*/
+}
 #main-wrapper a,
 .hp-quote,
 .block h2,
@@ -252,10 +265,9 @@ a#logo,
 	margin: 18px auto;
 	background: url(../images/sign-up-btn-small.png) no-repeat 0 0;
 }
-/*h3 {
+h3 {
 	font-size: 12px;
-}*/
-
+}
 /* --------------- Carousel --------------- */
 .carousel {
 	width: 626px;
@@ -308,20 +320,14 @@ a#logo,
 	clear: left;
 }
 #block-block-8 {
-	height: 140px;
-	position: relative;
-	background: none;
-}
-#block-block-10 {
-	height: 163px;
+	height: 305px;
 	position: relative;
 }
 .london-bubble,
-.nationwide-bubble,
-.minwage-bubble {
+.nationwide-bubble {
 	display: block;
-	width: 108px;
-	height: 108px;
+	width: 128px;
+	height: 128px;
 	background: url(../images/bubble-yellow.png) no-repeat 0 0;
 	position: absolute;
 	left: 0;
@@ -329,10 +335,8 @@ a#logo,
 }
 .nationwide-bubble {
 	background: url(../images/bubble-blue.png) no-repeat 0 0;
-	left: 120px;
-}
-.minwage-bubble {
-	background: url(../images/bubble-orange.png) no-repeat 0 0;
+	left: 130px;
+	top: 140px;
 }
 .view-blog .views-row {
 	padding-bottom: 30px;
@@ -348,9 +352,9 @@ ul.inline li.node-readmore a:hover {
 	text-decoration: none;
 	color: #f79520;
 }
-/*.view-employer-of-the-month .views-field {
+.view-employer-of-the-month .views-field {
 	margin-top: 14px;
-}*/
+}
 .view-employer-of-the-month .views-field-field-logo {
 	width: 200px;
 	margin: 6px auto;
