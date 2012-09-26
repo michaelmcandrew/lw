@@ -79,7 +79,6 @@ table label,
 -------------------------------------------------------------------------*/
 .form-item, .form-actions {
   margin: 1.4em 0;
-  width: 390px;
 }
 .fieldset-wrapper .form-item:first-child {
   margin-top: 0.4em;
@@ -174,6 +173,11 @@ select[multiple=multiple]:focus {
   border-color: rgba(213,213,213,0.7);
 }
 
+span.errorMsg {
+	margin-left: 4px;
+	font-weight: bold;
+	color: red;
+}
 /* Misc
 -------------------------------------------------------------------------*/
 .description {
