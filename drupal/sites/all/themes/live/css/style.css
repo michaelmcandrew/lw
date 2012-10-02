@@ -32,7 +32,7 @@ body {
     line-height: 1.5;
 	font-family: Helvetica, Arial, Sans-serif;
 	color: #232323;
-	background-color: #fffbf3;
+	background-color: #FFFBF3;
 }
 #page-wrapper {
 	min-height: 100%;
@@ -214,14 +214,14 @@ a#logo,
 	font-weight: bold;
 	line-height: 1.5;
 }
-
 #footer {
 	padding: 40px 0 20px 0;
 	background-color: #efece4;
 	border: 1px solid #bbbdbf;
 	font-size: 1.1em;
 }
-#block-block-3 {
+#block-block-3,
+.sign-up-box {
 	width: 632px;
 	height: 184px;
 	background: url(../images/sign-up-box.png) no-repeat 0 0;
