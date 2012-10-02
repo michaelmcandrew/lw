@@ -212,7 +212,9 @@ a#logo,
 	margin: 0 0 8px 0;
 	font-size: 12px;
 	font-weight: bold;
+	line-height: 12px;
 }
+
 #footer {
 	padding: 40px 0 20px 0;
 	background-color: #efece4;
