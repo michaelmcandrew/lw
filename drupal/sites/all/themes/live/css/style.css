@@ -255,7 +255,7 @@ a#logo,
 	background: url(../images/sign-up-btn-small.png) no-repeat 0 0;
 }
 .hp-partners {
-	margin-top: 12px;
+	margin-top: 12px !important;
 }
 /*h3 {
 	font-size: 12px;
