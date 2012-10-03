@@ -21,4 +21,3 @@ regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer_first] = Footer first column
 regions[footer_second] = Footer second column
-regions[footer_third] = Footer third column

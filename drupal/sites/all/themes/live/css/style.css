@@ -159,17 +159,21 @@ h1.title {
 #content, 
 #sidebar-first, 
 #sidebar-second, 
-#footer .region {
+#footer .region-footer-first {
     float: left;
 }
+#footer .region-footer-second {
+	float: right;
+}
 #sidebar-first, 
-#sidebar-second, 
-#footer .region {
+#sidebar-second {
 	width: 304px;
 }
-a#logo,
-#sidebar-first,
 #footer .region {
+	width: 480px;
+}
+a#logo,
+#sidebar-first {
 	margin-right: 24px;
 }
 .front #sidebar-first {
@@ -186,8 +190,7 @@ a#logo,
 	clear: both;
 	overflow: hidden;
 }
-#footer .region-footer-third {
-	margin-right: 0;
+#footer .region-footer-second {
 	text-align: right;
 }
 .block {
@@ -220,7 +223,7 @@ a#logo,
 	line-height: 1.5;
 }
 #footer {
-	padding: 40px 0 20px 0;
+	padding: 30px 0 20px 0;
 	background-color: #efece4;
 	border: 1px solid #bbbdbf;
 	font-size: 1.1em;
