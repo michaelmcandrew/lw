@@ -130,7 +130,15 @@
 					    <?php endif; ?>	      				
 	      			</div>
 				</div>
-	    	</div>
+	    	
+				<?php if ($page['hp_wide']): ?>
+			    	<div id="hp_wide" class="column">
+						<div class="section">
+			          		<?php print render($page['hp_wide']); ?>
+			        	</div>
+					</div> 
+			    <?php endif; ?>
+			</div>
 		</div> 
 
     	<div id="footer" class="clearfix">

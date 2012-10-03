@@ -181,6 +181,10 @@ a#logo,
 	margin-left: 24px;
 	padding-top: 8px;
 }
+#hp_wide {
+	width: 960px;
+	clear: both;
+}
 #footer .region-footer-third {
 	margin-right: 0;
 	text-align: right;
@@ -325,7 +329,7 @@ a#logo,
 .nationwide-bubble,
 .minwage-bubble {
 	display: block;
-	width: 112px;
+	width: 110px;
 	height: 110px;
 	background: url(../images/bubble-yellow.png) no-repeat 0 0;
 	position: absolute;

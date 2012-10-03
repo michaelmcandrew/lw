@@ -16,6 +16,7 @@ scripts[] = sifr/archer.js
 regions[header] = Header
 regions[content] = Content
 regions[hp_main] = Homepage main
+regions[hp_wide] = Homepage wide
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer_first] = Footer first column
