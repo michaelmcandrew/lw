@@ -131,10 +131,10 @@
 	      			</div>
 				</div>
 	    	
-				<?php if ($page['hp_wide']): ?>
-			    	<div id="hp_wide" class="column">
+				<?php if ($page['content_footer']): ?>
+			    	<div id="content_footer" class="column">
 						<div class="section">
-			          		<?php print render($page['hp_wide']); ?>
+			          		<?php print render($page['content_footer']); ?>
 			        	</div>
 					</div> 
 			    <?php endif; ?>
