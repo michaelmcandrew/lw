@@ -188,6 +188,7 @@ a#logo,
 #content_footer {
 	width: 960px;
 	clear: both;
+	padding-top: 16px;
 	overflow: hidden;
 }
 #footer .region-footer-second {
