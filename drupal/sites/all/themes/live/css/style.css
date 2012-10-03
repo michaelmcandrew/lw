@@ -356,9 +356,6 @@ ul.inline li.node-readmore a:hover {
 	text-decoration: none;
 	color: #f79520;
 }
-/*.view-employer-of-the-month .views-field {
-	margin-top: 14px;
-}*/
 .view-employer-of-the-month .views-field-field-logo {
 	width: 200px;
 	margin: 6px auto;
@@ -369,6 +366,16 @@ ul.inline li.node-readmore a:hover {
 .view-quote-block {
 	padding-bottom: 58px;
 	background: url(../images/quote-bubbles.png) no-repeat center bottom;
+}
+.sidebar-first .quote,
+.sidebar-first .views-field-field-quote {
+	font-size: 18px;
+	line-height: 1;
+}
+.sidebar-first .credit,
+.sidebar-first .views-field-field-author {
+	font-size: 16px;
+	line-height: 1;
 }
 .blog-date {
 	margin-bottom: 12px;
