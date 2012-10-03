@@ -184,6 +184,7 @@ a#logo,
 #hp_wide {
 	width: 960px;
 	clear: both;
+	overflow: hidden;
 }
 #footer .region-footer-third {
 	margin-right: 0;
@@ -199,9 +200,9 @@ a#logo,
 #main-wrapper .block {
 	margin: 0 0 16px 0;
 }
-/*#hp_main .block {
-	margin: 0 0 53px 0;
-}*/
+.hp-partners {
+	margin-top: 12px;
+}
 #main-wrapper a,
 .hp-quote,
 .block h2,
@@ -258,12 +259,6 @@ a#logo,
 	margin: 18px auto;
 	background: url(../images/sign-up-btn-small.png) no-repeat 0 0;
 }
-.hp-partners {
-	margin-top: 30px !important;
-}
-/*h3 {
-	font-size: 12px;
-}*/
 
 /* --------------- Carousel --------------- */
 .carousel {
