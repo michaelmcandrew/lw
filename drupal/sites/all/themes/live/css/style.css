@@ -23,6 +23,9 @@ hr {
 	border: 0 none;
 	background: url(../images/block-divide.png) repeat-x 0 0;
 }
+.content li {
+	margin-bottom: 12px;
+}
 html, body, #page {
 	height: 100%;
 }
@@ -471,4 +474,12 @@ ul.action-links li {
 #node-65 h4 {
 	background: url(../images/yellow.png) no-repeat -5px 0;
 	padding: 3px 15px 5px;
+}
+#node-65 ul {
+	padding-left: 0;
+}
+#node-65 li {
+	padding-left: 40px;
+	list-style: none outside none;
+	background: url(../images/yellow-bullet.png) no-repeat 5px 0;
 }
