@@ -198,7 +198,7 @@ a#logo,
 	clear: both;
 }
 .sidebar .block {
-	padding: 6px 6px 20px 6px;
+	padding: 6px 6px 16px 6px;
 	background: url(../images/block-divide.png) repeat-x 0 bottom;
 }
 #main-wrapper .block {
@@ -369,13 +369,14 @@ ul.inline li.node-readmore a:hover {
 }
 .sidebar-first .quote,
 .sidebar-first .views-field-field-quote {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1;
 }
 .sidebar-first .credit,
 .sidebar-first .views-field-field-author {
 	font-size: 16px;
 	line-height: 1;
+	margin-top: 6px;
 }
 .blog-date {
 	margin-bottom: 12px;
