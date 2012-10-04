@@ -318,7 +318,7 @@ a#logo,
 .view-employer-of-the-month .view-footer {
 	clear: left;
 }
-.living-wage {
+.sidebar .block.living-wage {
 	height: 140px;
 	position: relative;
 	background: none;
